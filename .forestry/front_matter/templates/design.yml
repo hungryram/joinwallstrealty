@@ -31,6 +31,7 @@ fields:
   label: Home Sections
   template_types:
   - featured-section
+  - intro-section
   config:
     min: 
     max: 
