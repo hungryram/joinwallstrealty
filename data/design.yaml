@@ -93,7 +93,7 @@ home_sections:
     sixth_featured_title: werewr
     sixth_featured_link: dfsdfdf
     featured_six_background_image: "/uploads/april-morales-1442-unsplash.jpg"
-  featured_background_color: "#FF0000"
+  featured_background_color: "#ffffff"
 - template: info-section
   info_title: my info title
   info_subtitle: info subtitle test
@@ -110,7 +110,7 @@ home_sections:
 - template: subscription
   background:
     subscription_background_image: "/uploads/20200423-01-3952RevereAve-LosAngeles,CA-004-Small.jpg"
-    subscription_background_color: "#C9C9C9"
+    subscription_background_color: "#2E2D2B"
     subscription_alt_tag: ''
-  subscription_subtitle: tesst
-  subscription_title: testestt
+  subscription_subtitle: Stay in Touch
+  subscription_title: Join our email list and be the first to know about specials and discounts!

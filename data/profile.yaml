@@ -2,7 +2,7 @@
 primary_contact:
   company_name: Complete Muscle Therapy
   full_name: Corinne R
-  phone_number: 555-555-5555
+  phone_number: 555-555-5554
   email: completemuscletherapy@gmail.com
 address:
   address: 6310 Golden Gate Drive
@@ -10,5 +10,5 @@ address:
   state: CA
   zip_code: "92886"
 social:
-  instagram: ''
-  facebook: ''
+  instagram: 'e'
+  facebook: 'e'

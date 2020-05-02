@@ -2,14 +2,18 @@
   <div class="container">
     <div class="columns has-text-centered">
       <div class="column">
-        <h1>COMPLETE MUSCLE THERAPY</h1>
-        <address>6310 Golden Gate Dr. Corona CA, 92882</address>
-        <p>555-555-5555</p>
+        {{ with .Site.Data.profile.primary_contact.logo }}
+        <img src="{{ . }}" alt="" width="200">
+            {{ else }}
+        <h1>{{ .Site.Data.profile.primary_contact.company_name }}</h1>
+            {{ end }}
+        {{ with .Site.Data.profile.address }}<address>{{ .address }} {{ .city }}, {{ .state }} {{ .zip_code }}</address>{{ end }}
+        {{ with .Site.Data.profile.primary_contact }}<p>{{ .phone_number }}</p>{{ end }}
+        {{ with .Site.Data.profile.primary_contact }}<p>{{ .email }}</p>{{ end }}
         <div class="footer-social">
           <ul>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Email</li>
+            {{ if .Site.Data.profile.social.instagram }}<li><a href="{{ .Params.instagram }}"><i class="fab fa-instagram"></i></a></li>{{ end }}
+            {{ if .Site.Data.profile.social.facebook }}<li><a href="{{ .Params.facebook }}"><i class="fab fa-facebook-f"></i></a></li>{{ end }}
           </ul>
         </div>
       </div>
