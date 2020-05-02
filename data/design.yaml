@@ -92,7 +92,7 @@ home_sections:
     sixth_featured_title: werewr
     sixth_featured_link: dfsdfdf
     featured_six_background_image: "/uploads/april-morales-1442-unsplash.jpg"
-  featured_background_color: "#ffffff"
+  featured_background_color: "#FF0000"
 - template: info-section
   info_title: my info title
   info_subtitle: info subtitle test
