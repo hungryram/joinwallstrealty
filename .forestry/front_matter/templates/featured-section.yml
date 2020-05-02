@@ -16,6 +16,11 @@ fields:
     config:
       required: false
     label: Link
+  - name: featured_one_background_image
+    type: file
+    config:
+      maxSize: 64
+    label: Background Image
   label: Featured One
 - name: featured_two
   type: field_group
@@ -31,6 +36,11 @@ fields:
     config:
       required: false
     label: Link
+  - name: featured_two_background_image
+    type: file
+    config:
+      maxSize: 64
+    label: Background Image
   label: Featured Two
 - name: featured_three
   type: field_group
@@ -46,6 +56,11 @@ fields:
     config:
       required: false
     label: Link
+  - name: featured_three_background_image
+    type: file
+    config:
+      maxSize: 64
+    label: Background Image
   label: Featured Three
 - name: fourth_featured
   type: field_group
@@ -61,6 +76,11 @@ fields:
     config:
       required: false
     label: Link
+  - name: featured_four_background_image
+    type: file
+    config:
+      maxSize: 64
+    label: Background Image
   label: Featured Four
 - name: featured_five
   type: field_group
@@ -77,6 +97,11 @@ fields:
       required: false
     label: Link
     description: "<br>"
+  - name: featured_five_background_image
+    type: file
+    config:
+      maxSize: 64
+    label: Background Image
   label: Featured Five
 - name: featured_six
   type: field_group
@@ -92,4 +117,9 @@ fields:
     config:
       required: false
     label: Link
+  - name: featured_six_background_image
+    type: file
+    config:
+      maxSize: 64
+    label: Background Image
   label: Featured Six
