@@ -69,8 +69,8 @@ home_sections:
     intro_new_tab: true
 - template: featured-section
   featured_one:
-    one_featured_title: ''
-    one_featured_link: ''
+    one_featured_title: f1
+    one_featured_link: link
   featured_two:
     second_featured_title: ''
     second_featured_link: ''
@@ -86,3 +86,12 @@ home_sections:
   featured_six:
     sixth_featured_title: ''
     sixth_featured_link: ''
+- template: info-section
+  info_title: my info title
+  info_subtitle: info subtitle test
+  info_body: lorekslfndsfds sdklfldksf dsfkjdklsfm sdzflksfn ,dm.sfmnkl;ds flsdnfdjk
+    fnkjdfbnmdzfdfdsfdsf sdf
+  info_button:
+    info_btn_label: my button lbel
+    info_btn_link: compeltemuscletherapy.net
+    info_new_tab: true
