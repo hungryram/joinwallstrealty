@@ -1,0 +1,12 @@
+<div class="section" id="info__section" {{ with .info_background_image }}style="background:url({{ . }}) no-repeat center;background-size: cover"{{ end }}>
+    <div class="container">
+        <div class="columns">
+            <div class="info-content">
+                {{ if .info_title }}<h2>{{ .info_title }}</h2>{{ end }}
+                {{ if .info_subtitle }}<h4>{{ .info_subtitle }}</h4>{{ end }}
+                {{ if .info_body }}<p>{{ .info_body }}</p>{{ end }}
+                {{ with .info_button }}<a href="{{ .info_btn_link }}" class="button" {{ if .info_new_tab}} target="_blank" {{ end }}>{{ .info_btn_label }}</a>{{ end }}
+            </div>
+        </div>
+    </div>
+</div>

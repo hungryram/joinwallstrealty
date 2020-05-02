@@ -79,7 +79,7 @@ home_sections:
   featured_three:
     third_featured_title: featired 3
     third_featured_link: adadasd
-    featured_three_background_image: "/uploads/derek-thomson-p50HcC0YrL0-unsplash.jpg"
+    featured_three_background_image: "/uploads/carles-rabada--9jKy_GcT8I-unsplash.jpg"
   fourth_featured:
     fourth_featured_title: fewr
     fourth_featured_link: "1232132"
@@ -92,7 +92,7 @@ home_sections:
     sixth_featured_title: werewr
     sixth_featured_link: dfsdfdf
     featured_six_background_image: "/uploads/april-morales-1442-unsplash.jpg"
-  featured_background_color: "#626262"
+  featured_background_color: "#ffffff"
 - template: info-section
   info_title: my info title
   info_subtitle: info subtitle test

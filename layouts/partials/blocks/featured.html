@@ -1,0 +1,78 @@
+<div class="section" id="featured__section" style="{{ safeHTMLAttr (printf "background-color: %s" .featured_background_color) }}">
+    <div class="container">
+ 
+        <div class="level">
+            <div class="level-left">
+                <div class="level-item">
+                    <div class="level-left-content">
+                        <h4>The Label</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="level-right">
+                <div class="level-item">
+                    <a href="" class="button">Learn More</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="columns has-text-centered">
+            {{ with .featured_one }}
+            <div class="column">
+                <div class="featured-box" style="background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url({{ .featured_one_background_image }}) no-repeat center; background-size: cover">
+                    <h4>{{ .one_featured_title }}</h4>
+                    <a href="{{ .one_featured_link }}">Learn more</a>
+                </div>
+            </div>
+            {{ end }}
+
+            {{ with .featured_two }}
+            <div class="column">
+                <div class="featured-box" style="background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url({{ .featured_two_background_image }}) no-repeat center; background-size: cover">
+                    <h4>{{ .second_featured_title }}</h4>
+                    <a href="{{ .second_featured_link }}">Learn More</a>
+                </div>
+            </div>
+            {{ end }}
+
+            {{ with .featured_three }}
+            <div class="column">
+                <div class="featured-box" style="background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url({{ .featured_three_background_image }}) no-repeat center; background-size: cover">
+                    <h4>{{ .third_featured_title }}</h4>
+                    <a href="{{ .third_featured_link }}">Learn More</a>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+
+        <div class="columns has-text-centered">
+            {{ with .fourth_featured }}
+            <div class="column">
+                <div class="featured-box" style="background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url({{ .featured_four_background_image }}) no-repeat center; background-size: cover">
+                    <h4>{{ .fourth_featured_title }}</h4>
+                    <a href="{{ .fourth_featured_link }}">Learn More</a>
+                </div>
+            </div>
+            {{ end }}
+
+            {{ with .featured_five }}
+            <div class="column">
+                <div class="featured-box" style="background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url({{ .featured_five_background_image }}) no-repeat center; background-size: cover">
+                    <h4>{{ .fifth_featured_title }}</h4>
+                    <a href="{{ .fifth_featured_link }}">Learn More</a>
+                </div>
+            </div>
+            {{ end }}
+
+            {{ with .featured_six }}
+            <div class="column">
+                <div class="featured-box" style="background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url({{ .featured_six_background_image }}) no-repeat center; background-size: cover">
+                    <h4>{{ .sixth_featured_title }}</h4>
+                    <a href="{{ .sixth_featured_link }}">Learn More</a>
+                </div>
+            </div>
+            {{ end }}
+
+        </div>
+    </div>
+</div>

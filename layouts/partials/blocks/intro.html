@@ -1,0 +1,12 @@
+<div class="section" id="intro__section">
+  <div class="container">
+    <div class="columns has-text-centered">
+      <div class="column">
+        {{ if .intro_subtitle }}<h4 class="subtitle is-5">{{ .intro_subtitle }}</h4>{{ end }}
+        {{ if .intro_title }}<h2 class="title is-3">{{ .intro_title }}</h2>{{ end }}
+        {{ if .intro_body }}<p>{{ .intro_body }}</p>{{ end }}
+        {{ with .button }}<a href="{{ .intro_link }}" class="button" {{ if .intro_new_tab }} target="_blank" {{end}} >{{ .intro_btn_label }}</a>{{ end }}
+      </div>
+    </div>
+  </div>
+</div>
