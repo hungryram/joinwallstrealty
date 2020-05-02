@@ -71,21 +71,28 @@ home_sections:
   featured_one:
     one_featured_title: f1
     one_featured_link: link
+    featured_one_background_image: "/uploads/aerial-shot-bird-s-eye-view-cliff-2581853.jpg"
   featured_two:
     second_featured_title: ''
     second_featured_link: ''
+    featured_two_background_image: ''
   featured_three:
     third_featured_title: ''
     third_featured_link: ''
+    featured_three_background_image: ''
   fourth_featured:
     fourth_featured_title: ''
     fourth_featured_link: ''
+    featured_four_background_image: ''
   featured_five:
     fifth_featured_title: ''
     fifth_featured_link: ''
+    featured_five_background_image: ''
   featured_six:
     sixth_featured_title: ''
     sixth_featured_link: ''
+    featured_six_background_image: ''
+  featured_background_color: "#626262"
 - template: info-section
   info_title: my info title
   info_subtitle: info subtitle test
