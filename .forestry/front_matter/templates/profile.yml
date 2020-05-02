@@ -1,4 +1,70 @@
 ---
 label: Profile
 hide_body: true
-fields: []
+fields:
+- name: primary_contact
+  type: field_group
+  config: {}
+  fields:
+  - name: company_name
+    type: text
+    config:
+      required: false
+    label: Company Name
+  - name: full_name
+    type: text
+    config:
+      required: false
+    label: Full Name
+  - name: phone_number
+    type: text
+    config:
+      required: false
+    label: Phone Number
+  - name: email
+    type: text
+    config:
+      required: false
+    label: Email
+  label: Primary Contact
+- name: address
+  type: field_group
+  config: {}
+  fields:
+  - name: address
+    type: text
+    config:
+      required: false
+    label: Address
+  - name: city
+    type: text
+    config:
+      required: false
+    label: City
+  - name: state
+    type: text
+    config:
+      required: false
+    label: State
+  - name: zip_code
+    type: text
+    config:
+      required: false
+    label: Zip Code
+  label: Address
+- name: social
+  type: field_group
+  config: {}
+  fields:
+  - name: instagram
+    type: text
+    config:
+      required: false
+    label: Instagram
+  - name: facebook
+    type: text
+    config:
+      required: false
+    label: Facebook
+  label: Social
+  description: Add the full link
