@@ -1,4 +1,41 @@
 ---
 label: Info Section
 hide_body: true
-fields: []
+fields:
+- name: info_title
+  type: text
+  config:
+    required: false
+  label: Info Title
+- name: info_subtitle
+  type: text
+  config:
+    required: false
+  label: Info Subtitle
+- name: info_body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Info Body
+- name: info_button
+  type: field_group
+  config: {}
+  fields:
+  - name: info_btn_label
+    type: text
+    config:
+      required: false
+    label: Label
+  - name: info_btn_link
+    type: text
+    config:
+      required: false
+    label: Link
+  - name: info_new_tab
+    type: boolean
+    label: Open in a new tab
+  label: Button
