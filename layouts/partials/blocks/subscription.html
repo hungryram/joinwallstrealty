@@ -2,8 +2,8 @@
     <div class="container">
         <div class="columns has-text-centered">
             <div class="column">
-                <h4>Subtitle List</h4>
-                <h2>Subscribe to our mailing list</h2>
+                {{ if .subscription_subtitle }}<h4>{{ .subscription_subtitle }}</h4>{{ end }}
+                {{ if .subscription_title }}<h2>{{ .subscription_title }}</h2>{{ end }}
                 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 

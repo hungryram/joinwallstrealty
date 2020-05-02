@@ -67,7 +67,7 @@ home_sections:
     intro_btn_label: test button
     intro_link: https://hungryram.com
     intro_new_tab: true
-  intro_background_color: "#7D7D7D"
+  intro_background_color: "#F8F5F0"
 - template: featured-section
   featured_one:
     one_featured_title: f1
