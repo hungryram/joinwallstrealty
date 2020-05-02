@@ -68,3 +68,5 @@ fields:
     label: Facebook
   label: Social
   description: Add the full link
+pages:
+- data/profile.yaml
