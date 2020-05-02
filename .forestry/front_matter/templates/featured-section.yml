@@ -1,4 +1,19 @@
 ---
 label: Featured Section
 hide_body: true
-fields: []
+fields:
+- name: featured_one
+  type: field_group
+  config: {}
+  fields:
+  - name: one_featured_title
+    type: text
+    config:
+      required: false
+    label: Featured Title
+  - name: one_featured_link
+    type: text
+    config:
+      required: false
+    label: Link
+  label: Featured One
