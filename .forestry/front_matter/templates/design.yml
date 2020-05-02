@@ -33,6 +33,7 @@ fields:
   - featured-section
   - intro-section
   - info-section
+  - blog
   config:
     min: 
     max: 
