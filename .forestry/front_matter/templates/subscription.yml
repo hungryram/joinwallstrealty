@@ -17,11 +17,6 @@ fields:
     config:
       required: false
       color_format: Hex
-  - name: subscription_alt_tag
-    type: text
-    config:
-      required: false
-    label: Image Alt Tag
   label: Background
 - name: subscription_subtitle
   type: text
