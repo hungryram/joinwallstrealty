@@ -63,6 +63,10 @@ home_sections:
   intro_subtitle: The subtitle
   intro_title: The main Title
   intro_body: lorem ipsum blablabla erfsklfsdmfdlsmf sdlfkjlskdm skdfdklmfkldfdfsfdf
+  button:
+    intro_btn_label: test button
+    intro_link: https://hungryram.com
+    intro_new_tab: true
 - template: featured-section
   featured_one:
     one_featured_title: ''
