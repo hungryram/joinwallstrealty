@@ -73,9 +73,9 @@ home_sections:
     one_featured_link: link
     featured_one_background_image: "/uploads/aerial-shot-bird-s-eye-view-cliff-2581853.jpg"
   featured_two:
-    second_featured_title: ''
-    second_featured_link: ''
-    featured_two_background_image: ''
+    second_featured_title: featured 2
+    second_featured_link: link is here
+    featured_two_background_image: "/uploads/bjorn-snelders-1415619-unsplash.jpg"
   featured_three:
     third_featured_title: ''
     third_featured_link: ''
