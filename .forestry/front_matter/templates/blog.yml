@@ -21,7 +21,7 @@ fields:
     time_format: 
     display_utc: false
   label: Blog Date
-- name: category
+- name: categories
   type: tag_list
   default: []
   label: Category
