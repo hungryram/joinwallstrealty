@@ -59,6 +59,10 @@ intro_section:
   - what not
   - new ideas
 home_sections:
+- template: intro-section
+  intro_subtitle: The subtitle
+  intro_title: The main Title
+  intro_body: lorem ipsum blablabla erfsklfsdmfdlsmf sdlfkjlskdm skdfdklmfkldfdfsfdf
 - template: featured-section
   featured_one:
     one_featured_title: ''
@@ -78,7 +82,3 @@ home_sections:
   featured_six:
     sixth_featured_title: ''
     sixth_featured_link: ''
-- template: intro-section
-  intro_subtitle: ''
-  intro_title: ''
-  intro_body: ''
