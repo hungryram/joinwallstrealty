@@ -1,4 +1,35 @@
 ---
 label: Subscription
 hide_body: true
-fields: []
+fields:
+- name: background
+  type: field_group
+  config: {}
+  fields:
+  - name: subscription_background_image
+    type: file
+    config:
+      maxSize: 64
+    label: Background Image
+  - name: subscription_background_color
+    type: color
+    label: Background Color
+    config:
+      required: false
+      color_format: Hex
+  - name: subscription_alt_tag
+    type: text
+    config:
+      required: false
+    label: Image Alt Tag
+  label: Background
+- name: subscription_subtitle
+  type: text
+  config:
+    required: false
+  label: Subscription Subtitle
+- name: subscription_title
+  type: text
+  config:
+    required: false
+  label: Subscription Title
