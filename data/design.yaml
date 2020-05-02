@@ -99,3 +99,10 @@ home_sections:
 - template: featured-blog
   blog_title: ''
   blog_subtitle: ''
+- template: subscription
+  background:
+    subscription_background_image: ''
+    subscription_background_color: ''
+    subscription_alt_tag: ''
+  subscription_subtitle: ''
+  subscription_title: ''
