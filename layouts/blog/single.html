@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            
+            <div class="column is-8">
+                
+                <div class="content notification">
+                    <img src="{{ .Params.featured_image }}" alt="">
+                    <h1>{{.Title}}</h1>
+                    {{ .Summary}}
+                </div>
+            </div>
+            <div class="column">
+                <div class="blog-sidebar">
+                    test
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{{ end }}

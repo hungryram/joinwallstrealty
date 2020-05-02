@@ -4,10 +4,10 @@
     <div class="container">
         <div class="columns has-text-centered">
             <div class="column is-half is-offset-one-quarter">
-                <h4>Contact Me</h4>
-                <h2>How can I help</h2>
+                {{ if .Params.contactpage_subtitle }}<h4>{{ .Params.contactpage_subtitle }}</h4>{{ end }}
+                {{ if .Params.contactpage_title }}<h2>{{ .Params.contactpage_title }}</h2>{{ end }}
                 <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo exercitationem praesentium excepturi perspiciatis, laboriosam dicta fuga pariatur libero, cumque sapiente nam minima? Ducimus neque perferendis minima, aliquam expedita sunt.</p>
+                    <p>{{ .Params.contactpage_content }}</p>
                 </div>
             </div>
         </div>
@@ -19,37 +19,32 @@
         <div class="section">
             <div class="container">
                 <div class="columns">
-                    <div class="column">
+                    <div class="column contactpage-form">
                         <div class="field">
                             <label class="label">Name</label>
                             <div class="control">
-                              <input class="input" type="text" placeholder="Text input">
+                              <input class="input" type="text">
                             </div>
                           </div>
                           
                           <div class="field">
                             <label class="label">Email</label>
                             <div class="control has-icons-left has-icons-right">
-                              <input class="input" type="email" placeholder="Email input">
-                              <span class="icon is-small is-left">
-                                <i class="fas fa-envelope"></i>
-                              </span>
+                              <input class="input" type="email">
 
                             </div>
                           </div>
                           
-
-                          
                           <div class="field">
                             <label class="label">Message</label>
                             <div class="control">
-                              <textarea class="textarea" placeholder="Textarea"></textarea>
+                              <textarea class="textarea"></textarea>
                             </div>
                           </div>
                           
                           <div class="field is-grouped">
                             <div class="control">
-                              <button class="button is-link">Submit</button>
+                              <a href="" class="button">Submit</a>
                             </div>
                           </div>
                     </div> <!-- end first column-->

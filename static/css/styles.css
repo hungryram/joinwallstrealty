@@ -1,5 +1,5 @@
 body {
-    background: #F7F4F0;
+    background: #f7f7f7;
 }
 
 div hr {
@@ -17,7 +17,8 @@ h6 {
 
 p,
 a,
-li {
+li,
+label {
     font-family: 'Karla', sans-serif;
 }
 
@@ -76,6 +77,27 @@ div.hero-body p {
 .navbar {
     padding: 20px 0;
 }
+
+.navbar-brand h1 {
+    color: #fff;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+/* RESPONSIVE NAV */
+
+.sub {
+    display: none;
+}
+
+.open {
+    display: block;
+}
+
+.nav-open {
+    display: block;
+}
+
 
 /* INTRO SECTION */
 
@@ -166,6 +188,12 @@ div.hero-body p {
     color: #fff;
 }
 
+/* BLOG LIST */
+
+.blog-content-list,
+.blog-sidebar {
+    background-color: #ffffff!important;
+}
 
 /* BLOG SLIDER */
 
@@ -207,6 +235,20 @@ div.hero-body p {
 
 .contact-content li {
     padding: 10px 0px;
+}
+
+.contactpage-form input,
+.contactpage-form textarea {
+    background: transparent;
+    border: 1px solid #d4d4d4;
+    border-radius: 0px;
+    padding: 20px;
+    box-shadow: none;
+}
+
+.contactpage-form .button {
+    background-color: #000000;
+    color: #fff;
 }
 
 /* FOOTER */
