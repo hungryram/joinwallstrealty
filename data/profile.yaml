@@ -10,5 +10,7 @@ address:
   state: CA
   zip_code: "92886"
 social:
-  instagram: 'e'
-  facebook: 'e'
+  instagram: e
+  facebook: e
+profile_photo: "/uploads/babe2.png"
+profile_image_alt_tag: corinne cmt
