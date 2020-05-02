@@ -8,6 +8,13 @@ sections:
   path: data/design.yaml
   label: Design
 - type: directory
+  path: content/blog
+  label: Add Post
+  create: documents
+  match: "**/*"
+  templates:
+  - blog
+- type: directory
   path: content
   label: Pages
   create: all
