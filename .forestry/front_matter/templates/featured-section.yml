@@ -8,6 +8,24 @@ fields:
   config:
     required: false
     color_format: Hex
+- name: featured_content
+  type: text
+  config:
+    required: false
+  label: Content
+- name: button_label
+  type: text
+  config:
+    required: false
+  label: Button Label
+- name: featured_button_link
+  type: text
+  config:
+    required: false
+  label: Button Link
+- name: featured_new_tab
+  type: boolean
+  label: Open in a new tab
 - name: featured_one
   type: field_group
   config: {}
