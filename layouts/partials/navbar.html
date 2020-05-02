@@ -3,11 +3,7 @@
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item" href="/">
-                {{ with .Site.Data.design.logo_or_title.upload_logo}}
-            <img src="{{ . }}" alt="" width="200">
-                {{ else }}
-            <h1>Logo</h1>
-                {{ end }}
+            <h1>{{ .Site.Data.profile.primary_contact.company_name }}</h1>
           </a>
           <span class="navbar-burger burger" data-target="navbarMenuHeroC">
             <span></span>
