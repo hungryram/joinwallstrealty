@@ -1,7 +1,6 @@
 +++
 blog_date = 2020-05-22T07:00:00Z
 category = []
-draft = true
 featured_image = "/uploads/20200423-01-3952RevereAve-LosAngeles,CA-004-Small.jpg"
 meta_description = ""
 tags = []
