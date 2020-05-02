@@ -2,6 +2,12 @@
 label: Intro Section
 hide_body: true
 fields:
+- name: intro_background_color
+  type: color
+  label: Intro Background Color
+  config:
+    required: false
+    color_format: Hex
 - name: intro_subtitle
   type: text
   config:
