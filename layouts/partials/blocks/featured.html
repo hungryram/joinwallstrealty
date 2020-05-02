@@ -5,13 +5,13 @@
             <div class="level-left">
                 <div class="level-item">
                     <div class="level-left-content">
-                        <h4>The Label</h4>
+                        {{ if .featured_content }}<h4>{{ .featured_content }}</h4>{{ end }}
                     </div>
                 </div>
             </div>
             <div class="level-right">
                 <div class="level-item">
-                    <a href="" class="button">Learn More</a>
+                    <a href="{{ .featured_button_link }}" class="button" {{ if .featured_new_tab }} target="_blank" {{ end }}>{{ .button_label }}</a>
                 </div>
             </div>
         </div>

@@ -1,0 +1,74 @@
+{{ define "main" }}
+
+<div class="section" id="contactpage__container">
+    <div class="container">
+        <div class="columns has-text-centered">
+            <div class="column is-half is-offset-one-quarter">
+                <h4>Contact Me</h4>
+                <h2>How can I help</h2>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo exercitationem praesentium excepturi perspiciatis, laboriosam dicta fuga pariatur libero, cumque sapiente nam minima? Ducimus neque perferendis minima, aliquam expedita sunt.</p>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <hr>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <div class="field">
+                            <label class="label">Name</label>
+                            <div class="control">
+                              <input class="input" type="text" placeholder="Text input">
+                            </div>
+                          </div>
+                          
+                          <div class="field">
+                            <label class="label">Email</label>
+                            <div class="control has-icons-left has-icons-right">
+                              <input class="input" type="email" placeholder="Email input">
+                              <span class="icon is-small is-left">
+                                <i class="fas fa-envelope"></i>
+                              </span>
+
+                            </div>
+                          </div>
+                          
+
+                          
+                          <div class="field">
+                            <label class="label">Message</label>
+                            <div class="control">
+                              <textarea class="textarea" placeholder="Textarea"></textarea>
+                            </div>
+                          </div>
+                          
+                          <div class="field is-grouped">
+                            <div class="control">
+                              <button class="button is-link">Submit</button>
+                            </div>
+                          </div>
+                    </div> <!-- end first column-->
+                    <div class="column">
+                        <div class="contact-content">
+                            <h2>Let's connect</h2>
+                            {{ $profilecontact := .Site.Data.profile.primary_contact }}
+                            {{ $profileaddress := .Site.Data.profile.address }}
+                            <ul>
+                                <li><i class="fas fa-map-marker-alt"></i>{{ $profileaddress.address }} {{ $profileaddress.city }}, {{ $profileaddress.state }} {{ $profileaddress.zip_code }}</li>
+                                <li><i class="fas fa-mobile-alt"></i>{{  $profilecontact.phone_number }}</li>
+                                <li><i class="far fa-envelope"></i>{{  $profilecontact.email }}</li>
+                            </ul>
+                        </div>
+                    </div> <!-- end second column-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ end }}

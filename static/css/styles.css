@@ -1,3 +1,11 @@
+body {
+    background: #F7F4F0;
+}
+
+div hr {
+    background-color: #e5e5e5;
+}
+
 h1,
 h2,
 h3,
@@ -11,6 +19,11 @@ p,
 a,
 li {
     font-family: 'Karla', sans-serif;
+}
+
+main {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 a.button {
@@ -34,6 +47,9 @@ a.button:hover {
     transition: all .4s ease;
 }
 
+
+
+
 /* HERO */
 
 div.hero-body h1,
@@ -55,6 +71,10 @@ div.hero-body p {
 
 .navbar>.container {
     align-items: center!important;
+}
+
+.navbar {
+    padding: 20px 0;
 }
 
 /* INTRO SECTION */
@@ -133,6 +153,20 @@ div.hero-body p {
     padding-bottom: 200px;
 }
 
+.info-content h2 {
+    color: #fff;
+}
+
+.info-content h4,
+.info-content p {
+    color: #d3d3d3;
+}
+
+.info-content a {
+    color: #fff;
+}
+
+
 /* BLOG SLIDER */
 
 #blog__section {
@@ -142,6 +176,37 @@ div.hero-body p {
 
 .blog-cards {
     margin: 20px;
+}
+
+/* ABOUT AND CONTACT PAGE */
+
+#aboutpage__container h4,
+#contactpage__container h4 {
+    font-size: 16px;
+    line-height: 28px;
+    color: #c0b7af;
+    text-transform: uppercase;
+}
+
+#aboutpage__container h2,
+#contactpage__container h2 {
+    font-size: 26px;
+    line-height: 44px;
+}
+
+#aboutpage__container p,
+#contactpage__container p {
+    color: #6a6560;
+}
+
+/* CONTACT */
+
+.contact-content i {
+    margin-right: 20px;
+}
+
+.contact-content li {
+    padding: 10px 0px;
 }
 
 /* FOOTER */
@@ -185,6 +250,10 @@ address {
     color: #6a6560;
 }
 
+.bottom-footer {
+    padding: 30px;
+    background: #161411;
+}
 
 
 /* SLICK SLIDER */
