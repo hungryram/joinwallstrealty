@@ -77,21 +77,21 @@ home_sections:
     second_featured_link: link is here
     featured_two_background_image: "/uploads/bjorn-snelders-1415619-unsplash.jpg"
   featured_three:
-    third_featured_title: ''
-    third_featured_link: ''
-    featured_three_background_image: ''
+    third_featured_title: featired 3
+    third_featured_link: adadasd
+    featured_three_background_image: "/uploads/derek-thomson-p50HcC0YrL0-unsplash.jpg"
   fourth_featured:
-    fourth_featured_title: ''
-    fourth_featured_link: ''
-    featured_four_background_image: ''
+    fourth_featured_title: fewr
+    fourth_featured_link: "1232132"
+    featured_four_background_image: "/uploads/carles-rabada--9jKy_GcT8I-unsplash.jpg"
   featured_five:
-    fifth_featured_title: ''
-    fifth_featured_link: ''
-    featured_five_background_image: ''
+    fifth_featured_title: ewrfwe
+    fifth_featured_link: sdf
+    featured_five_background_image: "/uploads/sanfran.jpg"
   featured_six:
-    sixth_featured_title: ''
-    sixth_featured_link: ''
-    featured_six_background_image: ''
+    sixth_featured_title: werewr
+    sixth_featured_link: dfsdfdf
+    featured_six_background_image: "/uploads/april-morales-1442-unsplash.jpg"
   featured_background_color: "#626262"
 - template: info-section
   info_title: my info title
