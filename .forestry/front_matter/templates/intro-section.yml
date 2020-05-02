@@ -21,3 +21,21 @@ fields:
     schema:
       format: markdown
   label: Intro Body
+- name: button
+  type: field_group
+  config: {}
+  fields:
+  - name: intro_btn_label
+    type: text
+    config:
+      required: false
+    label: Label
+  - name: intro_link
+    type: text
+    config:
+      required: false
+    label: Link
+  - name: intro_new_tab
+    type: boolean
+    label: Open in a new tab
+  label: Button
