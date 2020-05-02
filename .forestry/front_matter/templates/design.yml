@@ -32,6 +32,7 @@ fields:
   template_types:
   - featured-section
   - intro-section
+  - info-section
   config:
     min: 
     max: 
