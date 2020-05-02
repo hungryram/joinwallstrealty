@@ -17,3 +17,79 @@ fields:
       required: false
     label: Link
   label: Featured One
+- name: featured_two
+  type: field_group
+  config: {}
+  fields:
+  - name: second_featured_title
+    type: text
+    config:
+      required: false
+    label: Featured Title
+  - name: second_featured_link
+    type: text
+    config:
+      required: false
+    label: Link
+  label: Featured Two
+- name: featured_three
+  type: field_group
+  config: {}
+  fields:
+  - name: third_featured_title
+    type: text
+    config:
+      required: false
+    label: Featured Title
+  - name: third_featured_link
+    type: text
+    config:
+      required: false
+    label: Link
+  label: Featured Three
+- name: fourth_featured
+  type: field_group
+  config: {}
+  fields:
+  - name: fourth_featured_title
+    type: text
+    config:
+      required: false
+    label: Featured Title
+  - name: fourth_featured_link
+    type: text
+    config:
+      required: false
+    label: Link
+  label: Featured Four
+- name: featured_five
+  type: field_group
+  config: {}
+  fields:
+  - name: fifth_featured_title
+    type: text
+    config:
+      required: false
+    label: Featured Title
+  - name: fifth_featured_link
+    type: text
+    config:
+      required: false
+    label: Link
+    description: "<br>"
+  label: Featured Five
+- name: featured_six
+  type: field_group
+  config: {}
+  fields:
+  - name: sixth_featured_title
+    type: text
+    config:
+      required: false
+    label: Featured Title
+  - name: sixth_featured_link
+    type: text
+    config:
+      required: false
+    label: Link
+  label: Featured Six
