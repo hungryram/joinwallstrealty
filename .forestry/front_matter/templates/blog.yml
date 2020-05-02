@@ -29,3 +29,8 @@ fields:
   type: tag_list
   default: []
   label: Tags
+- name: search_engine_optimization
+  type: include
+  config: {}
+  template: seo
+  label: Search Engine Optimization
