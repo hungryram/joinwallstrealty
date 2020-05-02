@@ -1,4 +1,23 @@
 ---
 label: Intro Section
 hide_body: true
-fields: []
+fields:
+- name: intro_subtitle
+  type: text
+  config:
+    required: false
+  label: Intro Subtitle
+- name: intro_title
+  type: text
+  config:
+    required: false
+  label: Intro Title
+- name: intro_body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Intro Body
