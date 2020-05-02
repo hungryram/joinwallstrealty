@@ -1,12 +1,11 @@
 {{ define "main" }}
-
 <div class="section" id="aboutpage__container">
     <div class="container">
         <div class="columns has-text-centered">
             <div class="column is-half is-offset-one-quarter">
-                <h4>Welcome to luxury Spa</h4>
-                <h2>We are a professional Laser, Spa and Beauty clinic in the heart of New York.</h2>
-                <p>Text</p>
+                {{ if .Params.aboutpage_subtitle }}<h4>{{ .Params.aboutpage_subtitle }}</h4>{{ end }}
+                {{ if .Params.aboutpage_title }}<h2>{{ .Params.aboutpage_title }}</h2>{{ end }}
+                {{ if .Params.aboutpage_top_content }}<p>{{ .Params.aboutpage_top_content }}</p>{{ end }}
             </div>
         </div>
         <div class="section">
@@ -17,14 +16,16 @@
         <div class="section">
             <div class="container">
                 <div class="columns">
+                    {{ with .Params.image_and_text_row }}
                     <div class="column">
                         <div class="aboutpage-img-container">
-                            <img src="https://aviana.qodeinteractive.com/wp-content/uploads/2017/09/h2-port-gallery-img-1.jpg" alt="">
+                            <img src="{{ .aboutpage_photo }}" alt="{{ .aboutpage_image_alt_tag }}">
                         </div>
                     </div>
+                    {{ end }}
                     <div class="column">
                         <div class="aboutpage-content content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptates earum perspiciatis illum sapiente ratione unde? Eum distinctio quis doloremque maxime laborum facere veritatis neque reiciendis reprehenderit. Fuga, animi molestiae.</p>
+                            {{ .Params.image_and_text_row.aboutpage_imagecontent| markdownify }}
                         </div>
                     </div>
                 </div>
