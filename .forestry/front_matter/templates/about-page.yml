@@ -45,3 +45,5 @@ fields:
         format: markdown
     label: Content
   label: Image and Text Row
+pages:
+- content/about/_index.md
