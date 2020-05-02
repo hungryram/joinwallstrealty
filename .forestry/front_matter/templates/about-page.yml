@@ -1,4 +1,47 @@
 ---
 label: About Page
 hide_body: true
-fields: []
+fields:
+- name: aboutpage_subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
+- name: aboutpage_title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: aboutpage_top_content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Top Content
+- name: image_and_text_row
+  type: field_group
+  config: {}
+  fields:
+  - name: aboutpage_photo
+    type: file
+    config:
+      maxSize: 5
+    label: Photo
+  - name: aboutpage_image_alt_tag
+    type: text
+    config:
+      required: false
+    label: Image Alt Tag
+  - name: aboutpage_imagecontent
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Content
+  label: Image and Text Row
