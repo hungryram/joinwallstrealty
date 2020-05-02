@@ -67,6 +67,7 @@ home_sections:
     intro_btn_label: test button
     intro_link: https://hungryram.com
     intro_new_tab: true
+  intro_background_color: "#7D7D7D"
 - template: featured-section
   featured_one:
     one_featured_title: f1
@@ -92,7 +93,7 @@ home_sections:
     sixth_featured_title: werewr
     sixth_featured_link: dfsdfdf
     featured_six_background_image: "/uploads/april-morales-1442-unsplash.jpg"
-  featured_background_color: "#ffffff"
+  featured_background_color: "#FF0000"
 - template: info-section
   info_title: my info title
   info_subtitle: info subtitle test
