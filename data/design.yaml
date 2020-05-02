@@ -58,3 +58,27 @@ intro_section:
   - jigs
   - what not
   - new ideas
+home_sections:
+- template: featured-section
+  featured_one:
+    one_featured_title: ''
+    one_featured_link: ''
+  featured_two:
+    second_featured_title: ''
+    second_featured_link: ''
+  featured_three:
+    third_featured_title: ''
+    third_featured_link: ''
+  fourth_featured:
+    fourth_featured_title: ''
+    fourth_featured_link: ''
+  featured_five:
+    fifth_featured_title: ''
+    fifth_featured_link: ''
+  featured_six:
+    sixth_featured_title: ''
+    sixth_featured_link: ''
+- template: intro-section
+  intro_subtitle: ''
+  intro_title: ''
+  intro_body: ''
