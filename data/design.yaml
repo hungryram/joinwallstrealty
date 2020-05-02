@@ -101,8 +101,8 @@ home_sections:
   blog_subtitle: ''
 - template: subscription
   background:
-    subscription_background_image: ''
+    subscription_background_image: "/uploads/mainimage.jpg"
     subscription_background_color: ''
     subscription_alt_tag: ''
-  subscription_subtitle: ''
-  subscription_title: ''
+  subscription_subtitle: tesst
+  subscription_title: testestt
