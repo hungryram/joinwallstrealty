@@ -1,5 +1,9 @@
 baseURL = "/"
 languageCode = "en-us"
+[taxonomies]
+  author = "authors"
+  tag = "tags"
+  category = "categories"
 [[menu.main]]
 name = "Blog"
 url = "/blog"

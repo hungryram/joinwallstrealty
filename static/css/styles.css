@@ -195,6 +195,31 @@ div.hero-body p {
     background-color: #ffffff!important;
 }
 
+.card-sidebar {
+    padding-top: 20px;
+}
+
+.card-sidebar figure {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sidebar-social li {
+    display: inline-block;
+}
+
+.sidebar-social li:nth-child(even) {
+    padding: 10px;
+}
+
+.blog-sidebar {
+    padding: 40px;
+}
+
+.blog-sidebar a {
+    color: #b8a48d;
+}
+
 /* BLOG SLIDER */
 
 #blog__section {
