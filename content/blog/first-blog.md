@@ -5,6 +5,7 @@ category = ["massage", "neuromuscular"]
 featured_image = "/uploads/1.jpg"
 meta_description = "meta description"
 tags = ["relaxation", "aroma"]
+title = ""
 title_tag = "Blog title tag"
 
 +++
