@@ -1,5 +1,6 @@
 +++
 blog_date = 2020-05-16T07:00:00Z
+categories = ["massage"]
 category = []
 featured_image = "/uploads/20200423-01-3952RevereAve-LosAngeles,CA-004-Small.jpg"
 meta_description = ""
