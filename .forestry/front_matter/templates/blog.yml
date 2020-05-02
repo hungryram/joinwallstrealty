@@ -35,5 +35,6 @@ fields:
   template: seo
   label: Search Engine Optimization
 pages:
+- content/blog/bliog-3.md
 - content/blog/first-blog.md
 - content/blog/test-title.md
