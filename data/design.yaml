@@ -102,7 +102,7 @@ home_sections:
 - template: subscription
   background:
     subscription_background_image: "/uploads/20200423-01-3952RevereAve-LosAngeles,CA-004-Small.jpg"
-    subscription_background_color: ''
+    subscription_background_color: "#C9C9C9"
     subscription_alt_tag: ''
   subscription_subtitle: tesst
   subscription_title: testestt
