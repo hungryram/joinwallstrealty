@@ -4,6 +4,15 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
+- type: directory
+  path: content/services
+  label: My Services
+  create: documents
+  match: "**/*"
+  templates:
+  - services
+- type: heading
+  label: Services
 - type: document
   path: data/profile.yaml
   label: My Profile
