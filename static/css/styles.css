@@ -31,8 +31,8 @@ a.button {
     background-color: transparent;
     padding: 20px 50px;
     border-width: 1px;
-    color: #2d2a27;
-    border-color: #e0dddd;
+    color: #412000;
+    border-color: #CCAE93;
     border-radius: 0px;
     font-weight: bold;
     font-style: normal;
@@ -43,7 +43,7 @@ a.button {
 }
 
 a.button:hover {
-    background: #222;
+    background: #CCAE93;
     color: #fff;
     transition: all .4s ease;
 }
@@ -240,6 +240,44 @@ div.hero-body p {
 .blog-cards {
     margin: 20px;
 }
+
+/* SERVICE PAGE LIST */
+
+.service-list-container .box {
+    border: 1px solid #fcdab3;
+    box-shadow: none;
+    border-radius: 0px;
+    background: transparent;
+}
+
+.service-list-container .column {
+}
+
+div.card-services {
+    padding: 150px 50px;
+    border: 1px solid;
+    border-width: 1px;
+    border-color: #CCAE93;
+    transition: all .5s ease;
+
+}
+
+.card-services h4 {
+    text-transform: uppercase;
+}
+
+.card-services:hover {
+    background: #CCAE93;
+    transition: all .5s ease;
+    color: #fff!important;
+}
+
+.card-services hr {
+    width: 200px;
+    margin: 0 auto;
+    height: 1px;
+}
+
 
 /* ABOUT AND CONTACT PAGE */
 
