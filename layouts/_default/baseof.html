@@ -1,6 +1,23 @@
 {{ partial "head.html" . }}
 {{ partial "navbar.html" . }}
 
+<div class="interior-image" style="background:url(http://localhost:1313/uploads/20200423-01-3952RevereAve-LosAngeles,CA-004-Small.jpg) no-repeat center;background-size: cover;height: 30vh">
+    {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+    {{ $.Scratch.Add "path" .Site.BaseURL }}
+    <h2>{{ .Title }}</h2>
+    <nav class="breadcrumb is-small " aria-label="breadcrumbs">
+    <ul>
+      <li><a href="/">Home</a></li>
+      {{ range $index, $element := split $url "/" }}
+        {{ $.Scratch.Add "path" $element }}
+          {{ if ne $element "" }}
+          <li><a href='{{ $.Scratch.Get "path" }}'>{{ . | humanize }}</a></li>
+          {{ $.Scratch.Add "path" "/" }}
+          {{ end }}
+      {{ end }}
+    </ul>
+  </nav>
+</div>
 <main>
 {{ block "main" . }}
 

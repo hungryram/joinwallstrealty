@@ -49,7 +49,17 @@ a.button:hover {
 }
 
 
+/* INTERIOR IMAGE */
 
+.interior-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.interior-image h2 {
+    display: block;
+}
 
 /* HERO */
 
