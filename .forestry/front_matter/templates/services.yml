@@ -2,7 +2,7 @@
 label: Services
 hide_body: true
 fields:
-- name: service_title
+- name: title
   type: text
   config:
     required: false
