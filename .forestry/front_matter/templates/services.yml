@@ -36,3 +36,5 @@ fields:
       required: false
     label: Button Label
   label: Button
+pages:
+- content/services/testing-new-services.md
