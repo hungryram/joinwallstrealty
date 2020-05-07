@@ -60,14 +60,19 @@ intro_section:
   - new ideas
 home_sections:
 - template: intro-section
-  intro_subtitle: The subtitle
-  intro_title: The main Title
-  intro_body: lorem ipsum blablabla erfsklfsdmfdlsmf sdlfkjlskdm skdfdklmfkldfdfsfdf
+  intro_subtitle: Inspect What You Expect
+  intro_title: Secure Solutions VIP
+  intro_body: |-
+    Insure your company's structure is set up to deliver on its goals. Secure Solutions has over 30 years of Business development in retail, wholesale, and business accounting as well as employee training and counseling. We capture cost savings opportunities by helping you transform your business platform. We work and connect with company's from all sectors. Our approach helps ensure our clients success.
+
+    Secure Solutions was born out of a passion to assist and execute individuals and businesses to higher levels. Disenchanted with the way business is applied we think the basics are the road to success. We will assist in getting you there.
+
+    We take pride in our honest business concepts, integrity, and experience.
   button:
     intro_btn_label: test button
     intro_link: https://hungryram.com
     intro_new_tab: true
-  intro_background_color: "#F8F5F0"
+  intro_background_color: "#F9F9F9"
 - template: featured-section
   featured_one:
     one_featured_title: f1
