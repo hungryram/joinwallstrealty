@@ -5,7 +5,7 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: heading
-  label: Services
+  label: My Website
 - type: document
   path: data/profile.yaml
   label: My Profile
