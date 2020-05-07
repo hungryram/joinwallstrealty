@@ -74,14 +74,18 @@ home_sections:
     intro_new_tab: true
   intro_background_color: "#F9F9F9"
 - template: info-section
-  info_title: my info title
-  info_subtitle: info subtitle test
-  info_body: lorekslfndsfds sdklfldksf dsfkjdklsfm sdzflksfn ,dm.sfmnkl;ds flsdnfdjk
-    fnkjdfbnmdzfdfdsfdsf sdf
+  info_title: Helping You Achieve Success
+  info_subtitle: We take pride in our honest business concepts, integrity, and experience
+  info_body: Insure your company's structure is set up to deliver on its goals. Secure
+    Solutions has over 30 years of Business development in retail, wholesale, and
+    business accounting as well as employee training and counseling. We capture cost
+    savings opportunities by helping you transform your business platform. We work
+    and connect with company's from all sectors. Our approach helps ensure our clients
+    success.
   info_button:
-    info_btn_label: my button lbel
-    info_btn_link: compeltemuscletherapy.net
-    info_new_tab: true
+    info_btn_label: Get Started
+    info_btn_link: "/contact"
+    info_new_tab: false
   info_background_image: "/uploads/20200423-01-3952RevereAve-LosAngeles,CA-004-Small.jpg"
 logo_and_name:
   logo: "/uploads/securesolutionslogoNEW-1024x615.jpg"
