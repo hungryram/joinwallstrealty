@@ -2,7 +2,8 @@
 hero:
   hero_image: "/uploads/secure.jpg"
   hero_title: Secure Solutions VIP
-  hero_subtitle: ''
+  hero_subtitle: With over 30 years of experience we'll ensure you always get the
+    best guidance!
 info_icons:
   icon_info_one:
     icon_one_select: arrow-circle-o-down
