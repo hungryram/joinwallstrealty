@@ -119,3 +119,7 @@ home_sections:
   subscription_subtitle: Stay in Touch
   subscription_title: Join our email list and be the first to know about specials
     and discounts!
+logo_and_name:
+  logo: "/uploads/securesolutionslogoNEW-1024x615.jpg"
+  logo_photo_alt_tag: Secure Solutions VIP
+  company_name: Secure Solutions VIP
