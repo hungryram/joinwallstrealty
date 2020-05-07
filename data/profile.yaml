@@ -5,10 +5,10 @@ primary_contact:
   phone_number: 949.422.6565
   email: gwbue@yahoo.com
 address:
-  address: 6310 Golden Gate Drive
-  city: Yorba Linda
-  state: CA
-  zip_code: "92886"
+  address: ''
+  city: ''
+  state: ''
+  zip_code: ''
 social:
   instagram: e
   facebook: e
