@@ -80,6 +80,11 @@ fields:
     config:
       required: false
     label: Facebook
+  - name: linkedin
+    type: text
+    config:
+      required: false
+    label: Linkedin
   label: Social
   description: Add the full link
 pages:
