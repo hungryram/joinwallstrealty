@@ -1,4 +1,64 @@
 ---
 label: Featured Team
 hide_body: true
-fields: []
+fields:
+- name: member_one
+  type: field_group
+  config: {}
+  fields:
+  - name: member_one_full_name
+    type: text
+    config:
+      required: false
+    label: Full Name
+  - name: member_one_position
+    type: text
+    config:
+      required: false
+    label: Position
+  - name: member_one_link
+    type: text
+    config:
+      required: false
+    label: Link
+  label: Member One
+- name: member_two
+  type: field_group
+  config: {}
+  fields:
+  - name: member_two_full_name
+    type: text
+    config:
+      required: false
+    label: Full Name
+  - name: member_two_position
+    type: text
+    config:
+      required: false
+    label: Position
+  - name: member_two_link
+    type: text
+    config:
+      required: false
+    label: Link
+  label: Member Two
+- name: member_three
+  type: field_group
+  config: {}
+  fields:
+  - name: member_three_full_name
+    type: text
+    config:
+      required: false
+    label: Full Name
+  - name: member_three_position
+    type: text
+    config:
+      required: false
+    label: Position
+  - name: member_three_link
+    type: text
+    config:
+      required: false
+    label: Link
+  label: Member Three
