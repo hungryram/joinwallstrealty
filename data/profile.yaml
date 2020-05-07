@@ -9,6 +9,7 @@ address:
   city: ''
   state: ''
   zip_code: ''
+  disable_address: true
 social:
   instagram: e
   facebook: e
