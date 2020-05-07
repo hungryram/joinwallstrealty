@@ -73,36 +73,6 @@ home_sections:
     intro_link: https://hungryram.com
     intro_new_tab: true
   intro_background_color: "#F9F9F9"
-- template: featured-section
-  featured_one:
-    one_featured_title: f1
-    one_featured_link: link
-    featured_one_background_image: "/uploads/aerial-shot-bird-s-eye-view-cliff-2581853.jpg"
-  featured_two:
-    second_featured_title: featured 2
-    second_featured_link: link is here
-    featured_two_background_image: "/uploads/bjorn-snelders-1415619-unsplash.jpg"
-  featured_three:
-    third_featured_title: featired 3
-    third_featured_link: adadasd
-    featured_three_background_image: "/uploads/carles-rabada--9jKy_GcT8I-unsplash.jpg"
-  fourth_featured:
-    fourth_featured_title: fewr
-    fourth_featured_link: "1232132"
-    featured_four_background_image: "/uploads/carles-rabada--9jKy_GcT8I-unsplash.jpg"
-  featured_five:
-    fifth_featured_title: ewrfwe
-    fifth_featured_link: sdf
-    featured_five_background_image: "/uploads/sanfran.jpg"
-  featured_six:
-    sixth_featured_title: werewr
-    sixth_featured_link: dfsdfdf
-    featured_six_background_image: "/uploads/april-morales-1442-unsplash.jpg"
-  featured_background_color: "#ffffff"
-  featured_content: 'Experience an extensive menu of both modern and timeless treatments:'
-  button_label: Learn Me
-  featured_button_link: https://hungryram.com
-  featured_new_tab: true
 - template: info-section
   info_title: my info title
   info_subtitle: info subtitle test
@@ -113,17 +83,6 @@ home_sections:
     info_btn_link: compeltemuscletherapy.net
     info_new_tab: true
   info_background_image: "/uploads/20200423-01-3952RevereAve-LosAngeles,CA-004-Small.jpg"
-- template: featured-blog
-  blog_title: ''
-  blog_subtitle: ''
-- template: subscription
-  background:
-    subscription_background_image: "/uploads/20200423-01-3952RevereAve-LosAngeles,CA-004-Small.jpg"
-    subscription_background_color: "#2E2D2B"
-    subscription_alt_tag: ''
-  subscription_subtitle: Stay in Touch
-  subscription_title: Join our email list and be the first to know about specials
-    and discounts!
 logo_and_name:
   logo: "/uploads/securesolutionslogoNEW-1024x615.jpg"
   logo_photo_alt_tag: Secure Solutions VIP
