@@ -94,12 +94,12 @@ home_sections:
     member_one_position: Legal and Small Claims Advisor
     member_one_link: ''
   member_two:
-    member_two_full_name: ''
-    member_two_position: ''
-    member_two_link: ''
+    member_two_full_name: Nancy Bue
+    member_two_position: Leadership and Management  Counseling
+    member_two_link: https://nancybue.com
   member_three:
-    member_three_full_name: ''
-    member_three_position: ''
+    member_three_full_name: Scott Rueschenberg
+    member_three_position: Director of Business Solutions
     member_three_link: ''
 logo_and_name:
   logo: "/uploads/securesolutionslogoNEW-1024x615.jpg"
