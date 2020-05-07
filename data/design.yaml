@@ -88,6 +88,19 @@ home_sections:
     info_btn_link: "/contact"
     info_new_tab: false
   info_background_image: "/uploads/20200423-01-3952RevereAve-LosAngeles,CA-004-Small.jpg"
+- template: featured-team
+  member_one:
+    member_one_full_name: ''
+    member_one_position: ''
+    member_one_link: ''
+  member_two:
+    member_two_full_name: ''
+    member_two_position: ''
+    member_two_link: ''
+  member_three:
+    member_three_full_name: ''
+    member_three_position: ''
+    member_three_link: ''
 logo_and_name:
   logo: "/uploads/securesolutionslogoNEW-1024x615.jpg"
   logo_photo_alt_tag: Secure Solutions VIP
