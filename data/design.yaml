@@ -90,8 +90,8 @@ home_sections:
   info_background_image: "/uploads/20200423-01-3952RevereAve-LosAngeles,CA-004-Small.jpg"
 - template: featured-team
   member_one:
-    member_one_full_name: ''
-    member_one_position: ''
+    member_one_full_name: Art Hovespian
+    member_one_position: Legal and Small Claims Advisor
     member_one_link: ''
   member_two:
     member_two_full_name: ''
