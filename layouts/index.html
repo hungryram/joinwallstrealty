@@ -7,6 +7,10 @@
         {{ partial "blocks/intro" . }}
     {{ end }}
 
+    {{ if eq "featured-team" .template }}
+    {{ partial "blocks/featured-team" . }}
+    {{ end }}
+
     {{ if eq "subscription" .template }}
     {{ partial "blocks/subscription" . }}
     {{ end }}

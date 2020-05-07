@@ -7,9 +7,12 @@
             {{ else }}
         <h1>{{ .Site.Data.profile.primary_contact.company_name }}</h1>
             {{ end }}
+        {{ if .Site.Data.profile.address.disable_address }}
+        {{ else }}
         {{ with .Site.Data.profile.address }}<address>{{ .address }} {{ .city }}, {{ .state }} {{ .zip_code }}</address>{{ end }}
+        {{ end }}
         {{ with .Site.Data.profile.primary_contact }}<p>{{ .phone_number }}</p>{{ end }}
-        {{ with .Site.Data.profile.primary_contact }}<p>{{ .email }}</p>{{ end }}
+        {{ with .Site.Data.profile.primary_contact }}<p> {{ .email }}</p>{{ end }}
         <div class="footer-social">
           <ul>
             {{ if .Site.Data.profile.social.instagram }}<li><a href="{{ .Params.instagram }}"><i class="fab fa-instagram"></i></a></li>{{ end }}
@@ -23,7 +26,7 @@
 <div class="bottom-footer">
   <div class="columns has-text-centered">
     <div class="column">
-      <p>Privacy Policy Designed by Hungry Ram</p>
+      <p>Designed by <a href="https://hungryram.com" target="_blank">Hungry Ram</a></p>
     </div>
   </div>
 </div>

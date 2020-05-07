@@ -17,9 +17,9 @@
             <div class="container">
                 <div class="columns">
                     {{ with .Params.image_and_text_row }}
-                    <div class="column">
+                    <div class="column has-text-centered">
                         <div class="aboutpage-img-container">
-                            <img src="{{ .aboutpage_photo }}" alt="{{ .aboutpage_image_alt_tag }}">
+                            <img src="{{ .aboutpage_photo }}" alt="{{ .aboutpage_image_alt_tag }}" width="300">
                         </div>
                     </div>
                     {{ end }}

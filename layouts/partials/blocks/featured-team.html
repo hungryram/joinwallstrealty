@@ -1,0 +1,32 @@
+<div class="section has-text-centered">
+        <h2 class="title is-4">Our Team</h2>
+        <hr style="width: 200px;margin: 0 auto">
+</div>
+
+<div class="section">
+    <div class="container">
+        <div class="columns has-text-centered">
+            <div class="column">
+                <div class="content">
+                    {{ with .member_one }}<h4>{{ .member_one_full_name }}</h4>{{ end }}
+                    {{ with .member_one }}<h6>{{ .member_one_position }}</h6>{{ end }}
+                    {{ if .member_one.member_one_link }}<a href="{{ .member_one.member_one_link }}">Visit website</a>{{ end }}
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    {{ with .member_two }}<h4>{{ .member_two_full_name }}</h4>{{ end }}
+                    {{ with .member_two }}<h6>{{ .member_two_position }}</h6>{{ end }}
+                    {{ if .member_two.member_two_link }}<a href="{{ .member_two.member_two_link }}">Visit website</a>{{ end }}
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    {{ with .member_three }}<h4>{{ .member_three_full_name }}</h4>{{ end }}
+                    {{ with .member_three }}<h6>{{ .member_three_position }}</h6>{{ end }}
+                    {{ if .member_three.member_three_link }}<a href="{{ .member_three.member_three_link }}">Visit website</a>{{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

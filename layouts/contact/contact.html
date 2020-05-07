@@ -54,7 +54,10 @@
                             {{ $profilecontact := .Site.Data.profile.primary_contact }}
                             {{ $profileaddress := .Site.Data.profile.address }}
                             <ul>
+                                {{ if $profileaddress.disable_address }}
+                                {{ else }}
                                 <li><i class="fas fa-map-marker-alt"></i>{{ $profileaddress.address }} {{ $profileaddress.city }}, {{ $profileaddress.state }} {{ $profileaddress.zip_code }}</li>
+                                {{ end }}
                                 <li><i class="fas fa-mobile-alt"></i>{{  $profilecontact.phone_number }}</li>
                                 <li><i class="far fa-envelope"></i>{{  $profilecontact.email }}</li>
                             </ul>
