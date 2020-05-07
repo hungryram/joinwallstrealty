@@ -55,6 +55,7 @@ fields:
   - info-section
   - featured-blog
   - subscription
+  - featured-team
   config:
     min: 
     max: 
