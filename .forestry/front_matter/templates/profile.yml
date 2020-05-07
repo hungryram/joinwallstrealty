@@ -62,6 +62,9 @@ fields:
     config:
       required: false
     label: Zip Code
+  - name: disable_address
+    type: boolean
+    label: Disable Address
   label: Address
 - name: social
   type: field_group
