@@ -1,8 +1,8 @@
 ---
 hero:
-  hero_image: "/uploads/1.jpg"
-  hero_title: Complete Muscle Therapy
-  hero_subtitle: Hero Subtitle
+  hero_image: "/uploads/secure.jpg"
+  hero_title: Secure Solutions VIP
+  hero_subtitle: ''
 info_icons:
   icon_info_one:
     icon_one_select: arrow-circle-o-down
