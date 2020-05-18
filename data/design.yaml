@@ -104,3 +104,5 @@ logo_and_name:
   logo: "/uploads/wallstlogo1.png"
   logo_photo_alt_tag: Wallstreet Realty
   company_name: Wallstreet Realty
+review_section:
+  review_background_image: "/uploads/wallstreetbuilding.jpg"
