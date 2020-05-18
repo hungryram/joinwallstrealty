@@ -46,5 +46,15 @@ fields:
         format: markdown
     label: Hero Subtitle
   label: Hero
+- name: review_section
+  type: field_group
+  config: {}
+  fields:
+  - name: review_background_image
+    type: file
+    config:
+      maxSize: 64
+    label: Background Image
+  label: Review Section
 pages:
 - data/design.yaml
