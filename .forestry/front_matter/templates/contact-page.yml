@@ -21,5 +21,3 @@ fields:
     schema:
       format: markdown
   label: Content
-pages:
-- content/contact/_index.md
