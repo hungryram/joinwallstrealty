@@ -56,5 +56,19 @@ fields:
       maxSize: 64
     label: Background Image
   label: Review Section
+- name: agent
+  type: field_group
+  config: {}
+  fields:
+  - name: agent_bio
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Agent Bio
+  label: Agent
 pages:
 - data/design.yaml
