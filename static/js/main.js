@@ -17,5 +17,6 @@ $(document).ready(function() {
 
 
   $('.review-slider').slick({
-    autoplay: true
+    autoplay: true,
+    infinite: true
   });

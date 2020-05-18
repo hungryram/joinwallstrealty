@@ -1,13 +1,9 @@
-<section class="hero is-large" style="background:url({{ .Site.Data.design.hero.hero_image }}) no-repeat center;background-size:cover;">  
+<section class="hero is-large" style="background:linear-gradient(180deg,rgba(27,31,37,0) 0%,#1b1f25 100%),url({{ .Site.Data.design.hero.hero_image }}) no-repeat center;background-size:cover;">  
     <div class="hero-body content is-half is-offset-one-quarter">
       <div class="container has-text-centered">
-        <h1 class="title">
-          {{ .Site.Data.design.hero.hero_title }}
-        </h1>
-        <p class="subtitle">
-          {{ .Site.Data.design.hero.hero_subtitle }}
-
-        </p>
+        <h1 class="title">{{ .Site.Data.design.hero.hero_title }}</h1>
+        <p class="subtitle">{{ .Site.Data.design.hero.hero_subtitle }}</p><br>
+        <a href="#contact" class="hero-btn">Join Now</a>
       </div>
     </div>
 

@@ -6,20 +6,44 @@ div hr {
     background-color: #e5e5e5;
 }
 
+button.main-btn {
+    background: white;
+    border-radius: 0;
+    border: none;
+    padding: 0 40px;
+}
+
+input.input,
+textarea.textarea {
+    border-radius: 0;
+    background: transparent;
+    color: #fff;
+}
+
+input.input:focus {
+    outline: none!important;
+    border: 1px solid #A01D11;
+}
+
+input.input::placeholder,
+textarea.textarea::placeholder {
+    color: #fff;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: 'Josefin Sans', sans-serif!important;
+    font-family: 'Montserrat', sans-serif!important;
 }
 
 p,
 a,
 li,
 label {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 main {
@@ -57,6 +81,17 @@ div.hero-body p {
     line-height: 2;
 }
 
+a.hero-btn {
+    background: #A01D11;
+    color: #fff;
+    padding: 15px 50px;
+    text-transform: uppercase;
+}
+
+a.hero-btn:hover {
+    color: #ccc;
+}
+
 /* NAV */
 
 @media screen and (min-width:1088px) {
@@ -66,7 +101,7 @@ div.hero-body p {
     }
     
     .head-nav li a {
-        color: #fff;
+        color: #000;
     }
 }
 
@@ -118,7 +153,7 @@ div.hero-body p {
 }
 
 a.navbar-item img {
-    max-height: 7rem;
+    max-height: 4rem;
 }
 
 div.navbar-brand {
@@ -129,6 +164,9 @@ a.navbar-item {
     padding: 0;
 }
 
+header.navbar {
+    padding: 10px;
+}
 
 
 /* END DROP DOWN */
@@ -158,13 +196,54 @@ a.navbar-item {
     display: block;
 }
 
+/* FEATURE SECTION */
+
+.feature-section h2.title {
+    color: #fff;
+}
+
+.feature-section {
+    background: #2A3039;
+    color: #cacaca;
+}
+
+/* REVIEWS */
+
+@media screen and (max-width:768px){
+    div.review-section {
+        background: white!important;
+    }
+}
+
+.review-slider figure {
+    margin: 40px;
+}
+
+/* AGENT */
+
+img.agent-photo {
+    box-shadow: 4px 3px 12px 0px #7e7e7e;
+    margin-bottom: 40px;
+}
+
+.agent-row a {
+    color: #A01D11;
+}
 
 /* FOOTER */
 
 footer.footer {
-    background: #1F1E1D;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+        url(../uploads/la.jpg) no-repeat center;
+    background-size: cover;
     font-family: "Karla", sans-serif;
     font-size: 16px;
+    color: #fff;
+}
+
+footer.footer h3,
+footer.footer h5 {
+    color: #fff;
 }
 
 .footer {
@@ -229,6 +308,9 @@ div.icon-cta i {
     margin-bottom: 40px;
 }
 
+.section.icon-cta {
+    background-color: #ededed;
+}
 
 /* SLICK SLIDER */
 
