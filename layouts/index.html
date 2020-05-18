@@ -1,72 +1,9 @@
 {{ partial "head.html" . }}
+{{ partial "navbar.html" . }}
 {{ partial "hero.html" . }}
-
-{{ range .Site.Data.design.home_sections }}
-
-    {{ if eq "intro-section" .template }}
-        {{ partial "blocks/intro" . }}
-    {{ end }}
-
-    {{ if eq "featured-team" .template }}
-    {{ partial "blocks/featured-team" . }}
-    {{ end }}
-
-    {{ if eq "subscription" .template }}
-    {{ partial "blocks/subscription" . }}
-    {{ end }}
-
-
-    {{ if eq "featured-section" .template }}
-        {{ partial "blocks/featured" . }}
-    {{ end }}
-
-    {{ if eq "info-section" .template }}
-    {{ partial "blocks/info" . }}
-    {{ end }}
-
-    {{ if eq "featured-blog" .template }}
-    <div class="section" id="blog__section">
-        <div class="container">
-            <div class="columns has-text-centered">
-                <div class="column">
-                    <h2 class="title is-3">Latest news </h2>
-                </div>
-            </div>
-    
-                <div class="blog-slider">
-                {{ range first 3 ( where $.Site.RegularPages "Type" "blog") }}
-                <div class="card blog-cards">
-                    <div class="card-image">
-                      <figure class="image is-4by3">
-                        {{ if .Params.featured_image }}<img src="{{ .Params.featured_image }}" alt="">
-                        {{ else }}
-                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                        {{ end }}
-                      </figure>
-                    </div>
-                    <div class="card-content">
-                      <div class="media">
-                        <div class="media-content">
-                          <h4 class="title is-6">{{ .Title }}</h4>
-                          {{ if .Params.blog_date }}<time>{{ .Params.blog_date }}</time>{{ end }}
-                        </div>
-                      </div>
-                  
-                      <div class="content">
-                        {{ slicestr .Summary 2 100 | markdownify }}
-                      </div>
-                      <a href="{{ .Permalink }}" class="button">Read More</a>
-                    </div>
-                  </div>
-                {{ end }}
-            </div>
-            
-        </div>
-    </div>
-    {{ end }}
-
-
-{{ end }}
-
-
+{{ partial "feature.html" . }}
+{{ partial "reviews.html" . }}
+{{ partial "cta.html" . }}
+{{ partial "icon.html" . }}
+{{ partial "agent.html" . }}
 {{ partial "footer.html" . }}

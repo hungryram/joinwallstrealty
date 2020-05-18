@@ -1,35 +1,49 @@
-<footer class="footer">
-  <div class="container">
-    <div class="columns has-text-centered">
-      <div class="column">
-        {{ with .Site.Data.profile.primary_contact.logo }}
-        <img src="{{ . }}" alt="" width="200">
-            {{ else }}
-        <h1>{{ .Site.Data.profile.primary_contact.company_name }}</h1>
-            {{ end }}
-        {{ if .Site.Data.profile.address.disable_address }}
-        {{ else }}
-        {{ with .Site.Data.profile.address }}<address>{{ .address }} {{ .city }}, {{ .state }} {{ .zip_code }}</address>{{ end }}
-        {{ end }}
-        {{ with .Site.Data.profile.primary_contact }}<p>{{ .phone_number }}</p>{{ end }}
-        {{ with .Site.Data.profile.primary_contact }}<p> {{ .email }}</p>{{ end }}
-        <div class="footer-social">
+<footer>
+  <div class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <h3 class="title is-3">Get in Touch</h3>
+          <h5 class="subtitle is-4">Wallstreet is not a good fit if you...</h5>
           <ul>
-            {{ if .Site.Data.profile.social.instagram }}<li><a href="{{ .Params.instagram }}"><i class="fab fa-instagram"></i></a></li>{{ end }}
-            {{ if .Site.Data.profile.social.facebook }}<li><a href="{{ .Params.facebook }}"><i class="fab fa-facebook-f"></i></a></li>{{ end }}
+            <li>Just want somewhere to hang your license</li>
+            <li>Don’t want personal and professional growth</li>
+            <li>Have a negative, self-limiting attitude</li>
           </ul>
+        </div>
+        <div class="column">
+          <div class="field">
+            <label class="label">Name</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Text input">
+            </div>
+          </div>
+          
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control">
+              <input class="input" type="email" placeholder="Email input">
+            </div>
+          </div>
+
+          
+          <div class="field">
+            <label class="label">Message</label>
+            <div class="control">
+              <textarea class="textarea" placeholder="Textarea"></textarea>
+            </div>
+          </div>
+          
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-link">Submit</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </footer>
-<div class="bottom-footer">
-  <div class="columns has-text-centered">
-    <div class="column">
-      <p>Designed by <a href="https://hungryram.com" target="_blank">Hungry Ram</a></p>
-    </div>
-  </div>
-</div>
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="{{ .Site.BaseURL }}js/slick.min.js"></script>
