@@ -1,17 +1,9 @@
 baseURL = "/"
 languageCode = "en-us"
 [[menu.main]]
-name = "Professional Summary"
-url = "/about"
-weight = 2
-[[menu.main]]
-name = "Home"
-url = "/"
+name = "Visit Our Brokerage Site"
+url = "https://wallstrealty.com"
 weight = 1
-[[menu.main]]
-name = "Contact"
-url = "/contact"
-weight = 3
 [taxonomies]
 author = "authors"
 category = "categories"
