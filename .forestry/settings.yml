@@ -13,30 +13,6 @@ sections:
   path: data/design.yaml
   label: Design
 - type: heading
-  label: Pages
-- type: directory
-  path: content
-  label: Add Page
-  create: all
-  match: "*"
-- type: heading
-  label: Default Pages
-- type: document
-  path: content/about/_index.md
-  label: About
-- type: document
-  path: content/contact/_index.md
-  label: Contact
-- type: heading
-  label: Blog
-- type: directory
-  path: content/blog
-  label: Add Post
-  create: documents
-  match: "**/*"
-  templates:
-  - blog
-- type: heading
   label: Help
 - type: document
   path: data/icons.json
