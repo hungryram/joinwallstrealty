@@ -46,18 +46,5 @@ fields:
         format: markdown
     label: Hero Subtitle
   label: Hero
-- name: home_sections
-  type: blocks
-  label: Home Sections
-  template_types:
-  - featured-section
-  - intro-section
-  - info-section
-  - featured-blog
-  - subscription
-  - featured-team
-  config:
-    min: 
-    max: 
 pages:
 - data/design.yaml
