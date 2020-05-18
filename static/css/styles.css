@@ -274,14 +274,15 @@ footer.footer h5 {
     color: #6a6560;
 }
 
-address {
-    font-style: normal;
-    color: #6a6560;
+div.bottom-credit {
+    padding: 20px;
+    background: #161411;
+    color: #fff;
+    text-align: center;
 }
 
-.bottom-footer {
-    padding: 30px;
-    background: #161411;
+div.bottom-credit a {
+    color: #fff;
 }
 
 /* CTA SECTION */
