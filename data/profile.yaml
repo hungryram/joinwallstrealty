@@ -11,8 +11,8 @@ address:
   zip_code: ''
   disable_address: true
 social:
-  instagram: ''
-  facebook: ''
-  linkedin: ''
+  instagram: https://www.instagram.com/wallstreet_realty
+  facebook: https://www.facebook.com/wallstreetrealty
+  linkedin: https://www.linkedin.com/company/wallstreetrealty
 profile_photo: "/uploads/john15444.jpg"
 profile_image_alt_tag: John Pagani
