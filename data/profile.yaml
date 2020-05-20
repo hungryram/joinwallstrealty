@@ -5,10 +5,10 @@ primary_contact:
   phone_number: "(562) 324-4345"
   email: john@wallstrealty.com
 address:
-  address: ''
-  city: ''
-  state: ''
-  zip_code: ''
+  address: 7007 Washington Ave Suite 211
+  city: Whittier
+  state: CA
+  zip_code: "90670"
   disable_address: true
 social:
   instagram: https://www.instagram.com/wallstreet_realty
