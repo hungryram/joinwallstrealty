@@ -1,5 +1,6 @@
 body {
     background: #f7f7f7;
+    overflow: hidden;
 }
 
 div hr {
@@ -25,9 +26,17 @@ input.input:focus {
     border: 1px solid #A01D11;
 }
 
+label.checkbox:hover, .radio:hover {
+    color: inherit;
+}
+
+.content a {
+    color: #A01D11;
+}
+
 input.input::placeholder,
 textarea.textarea::placeholder {
-    color: #fff;
+    color: #fff!important;
 }
 
 h1,

@@ -46,6 +46,14 @@
               <button class="button main-btn">Submit</button>
             </div>
           </div>
+          <div class="field mt-5">
+            <div class="control content">
+              <label class="checkbox">
+                <input type="checkbox" required name="consent">
+                <span class="is-size-7">By submitting this form you confirm you have read and agreed to our <a href="">Terms of service</a> and <a href="">Privacy Policy.</a> You consent to having this website store the submitted information so we can respond to the inquiry. Don't worry, you can request to have your information removed anytime.</span>
+              </label>
+            </div>
+          </div>
           </form>
         </div>
       </div>
@@ -54,6 +62,11 @@
 </footer>
 <div class="bottom-credit">
   <a href="https://hungryram.com" target="_blank">Website developed by Hungry Ram</a>
+  <ul>
+    {{ range where $.Site.Pages.ByWeight "Type" "legal" }}
+    <li class="is-inline"><a href="{{ .Permalink }}" class="is-size-7 mx-2">{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
 </div>
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
