@@ -87,5 +87,10 @@ fields:
     label: Linkedin
   label: Social
   description: Add the full link
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 pages:
 - data/profile.yaml
