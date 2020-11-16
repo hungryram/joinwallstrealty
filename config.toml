@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 [[menu.main]]
 name = "Visit Our Brokerage Site"
-url = "https://wallstrealty.com"
+url = "https://www.wallstrealty.com"
 weight = 1
 [taxonomies]
 author = "authors"
